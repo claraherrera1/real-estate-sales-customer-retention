@@ -146,19 +146,27 @@ The dashboard reports repeat-purchase checkpoints of **9.35% at M1**, **9.47% at
 ## Project Structure
 
 ```text
+
 real-estate-sales-customer-retention/
 ├── README.md
 ├── data/
 │   ├── hecho_ventas_propiedades.csv
 │   ├── dim_clientes.csv
 │   └── dim_propiedades.csv
+├── docs/
+│   └── methodology_and_findings.md
 └── images/
     ├── executive_overview.png
     ├── commercial_analysis.png
     └── customer_retention.png
-```
 
-*The three dashboard screenshots are included in `images/`. A separate methodology and findings document may be added in a later revision.*
+```
+The `images/` folder contains screenshots of the three Tableau dashboards, while the `docs/` folder provides detailed documentation of the analytical methodology, KPI definitions, findings, and business recommendations.
+## Detailed Methodology & Findings
+
+For a deeper understanding of the analytical workflow, data preparation, KPI definitions, Tableau dashboard development, key findings, business recommendations, and limitations, explore the supporting documentation.
+
+📄 **[View Detailed Methodology & Findings](docs/methodology_and_findings.md)**
 
 ## Tools & Skills
 
